@@ -1,14 +1,61 @@
 body{
     display: flex;
+    align-items: center;
 }
 
 header{
-    background-color: aqua;
+    background-color: rgb(187, 255, 255);
+    width: 1350px;
+    height: 270px;
     display: flex;
-    justify-content: center;
     align-items: center;
 }
 
 .card-img{
-    width: 180px;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    padding-left: 500px;
+    position:relative;
+    top:-160px;
 }
+
+#button{
+    background-color: aquamarine;
+    margin-left: 410px;
+    width: 140px;
+    height: 49px;
+    border-radius: 13px;
+}
+
+#button2{
+    background-color: aquamarine;
+    margin-left: 50px;
+    width: 140px;
+    height: 49px;
+    border-radius: 13px;
+}
+
+#button3{
+    background-color: aquamarine;
+    margin-left: 50px;
+    width: 140px;
+    height: 49px;
+    border-radius: 13px;
+    padding: 13px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+}
+
+footer{
+    background-color: aqua;
+    height: 75px;
+}
+
+#text3{
+    margin-left: 1100px;
+}
+
