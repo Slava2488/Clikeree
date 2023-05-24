@@ -17,14 +17,14 @@ window.onload = () => {
     let textLvl = document.querySelector("#text3");
     let cardImg = document.querySelector(".card");
 
-    let btnAppendClick1 = document.querySelector(".button");
-    let btnAppendClick5 = document.querySelector(".button2");
-    let btnNewGame = document.querySelector(".button3");
+    let btnAppendClick1 = document.querySelector("#button");
+    let btnAppendClick5 = document.querySelector("#button2");
+    let btnNewGame = document.querySelector("#button3");
 
 
     const UpdateLvl = (_count) =>{
         let textLvl = null
-        if(_count > 1 &&_count <= 999)
+        if(_count > 0 &&_count <= 999)
         {
             textLvl = "Уровень начальный"
         }
@@ -73,7 +73,7 @@ window.onload = () => {
             element: btnAppendClick1,
             text: `+1 доп.клик`
         };
-        AddBoost(boostClick)
+        AddBoost(boostClick);
     });
 
 
@@ -83,7 +83,7 @@ window.onload = () => {
             element: btnAppendClick5,
             text: `+5 доп.клик`
         };
-        AddBoost(boostClick)
+        AddBoost(boostClick);
     });
 
     btnNewGame.addEventListener('click', ()=>{

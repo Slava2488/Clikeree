@@ -11,7 +11,7 @@ header{
     align-items: center;
 }
 
-.card-img{
+.card{
     width: 300px;
     display: flex;
     justify-content: center;
