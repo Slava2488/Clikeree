@@ -45,9 +45,9 @@ header{
     padding: 13px;
 }
 
-h1{
-    display: flex;
-    justify-content: center;
+#count{
+    margin-top: -110px;
+    margin-left: 548px;
 }
 
 footer{
@@ -57,5 +57,6 @@ footer{
 
 #text3{
     margin-left: 1100px;
+    margin-top: -40px;
 }
 
